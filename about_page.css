@@ -1,0 +1,63 @@
+.nice_colour{
+    background-color: rgba(94, 255, 225, 0.8);
+}
+
+.navbar-toggler-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.navbar-toggler{
+    padding: 0.25rem 0.5rem;
+}
+
+.navbar{
+    padding-bottom: 0px;
+}
+
+body{
+    padding-top: 80px;
+}
+
+.navbar-light .navbar-toggler{
+    border-color: rgb(94, 255, 225);
+    background-color: rgba(0, 106, 78, 0.5);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 106, 78, 1.0);
+}
+
+.hove:hover{
+    color: white;
+}
+
+.hove{
+    padding-right: 15%;
+}
+
+.footer-main {
+    border-top: 1px solid #5e5f62;
+    padding: 40px 0;
+    margin: 40px 0 0;
+    font-size: 1.3rem;
+    color: rgb(0, 255, 0);
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+}
+
+.footer-main:before {
+    display: block;
+    content: " ";
+    width: 7px;
+    height: 7px;
+    border: #aaa 1px solid;
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    margin-left: -5px;
+    background: rgba(113, 234, 187, 0.5);
+    box-shadow: rgba(113, 234, 187, 0.5) 0 0 0 5px;
+    border-radius: 4px;
+}
